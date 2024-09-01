@@ -34,12 +34,12 @@ resource "google_container_cluster" "gke_cluster" {
     }
   }
 
-/*
+
   # Add Resource labels
   resource_labels = {
     team = "frontend"
   }
-*/  
+ 
 }
 
 
